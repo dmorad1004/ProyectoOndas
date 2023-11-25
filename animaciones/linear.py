@@ -64,5 +64,5 @@ class LinearPendulum(mn.Scene):
             lenght*np.sin(theta.get_value()), -lenght*np.cos(theta.get_value())))
 
         self.add(ball)
-        self.play(time.animate.set_value(10),
-                  rate_func=mn.linear, run_time=10)
+        self.play(time.animate.set_value(20),
+                  rate_func=mn.linear, run_time=20)

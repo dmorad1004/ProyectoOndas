@@ -61,7 +61,7 @@ class NoLinearPendulum(mn.Scene):
         self.add(arctext)
 
         def get_ball(x, y):
-            dot = mn.Dot(fill_color=mn.BLUE, fill_opacity=1).move_to(
+            dot = mn.Dot(fill_color=mn.RED, fill_opacity=1).move_to(
                 x * mn.RIGHT + y * mn.UP).scale(length)
             return dot
 
@@ -80,5 +80,5 @@ class NoLinearPendulum(mn.Scene):
         theta.add_updater(lambda m: m.set_value(
             get_theta_at_time(time.get_value())))
 
-        self.play(time.animate.set_value(10),
-                  rate_func=mn.linear, run_time=10)
+        self.play(time.animate.set_value(20),
+                  rate_func=mn.linear, run_time=20)
