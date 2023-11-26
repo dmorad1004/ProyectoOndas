@@ -11,7 +11,7 @@ class LinearPendulum(mn.Scene):
         g = 9.8
         w = np.sqrt(g/lenght)
         # period = 2*PI/w
-        max_theta = PI/4
+        max_theta = PI/14
 
         theta = mn.DecimalNumber().set_theta = mn.DecimalNumber(
         ).set_color(mn.BLACK).move_to(15*mn.RIGHT)

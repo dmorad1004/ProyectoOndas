@@ -73,7 +73,7 @@ class NoLinearPendulum(mn.Scene):
 
         def get_theta_at_time(t):
             time_trunc = t*1000
-            print(t, ",", time_trunc, ",", theta_data[int(time_trunc)])
+            # print(t, ",", time_trunc, ",", theta_data[int(time_trunc)])
             return theta_data[int(time_trunc)]
 
         # Usa la función en lugar de la actualización en tiempo real

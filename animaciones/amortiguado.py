@@ -3,9 +3,11 @@ import numpy as np
 
 PI = np.pi
 
-data = np.genfromtxt("../simulaciones/data/damped.csv",
-                     delimiter=",", skip_header=1, dtype=np.float64)
+# data = np.genfromtxt("../simulaciones/data/damped.csv",
+#                      delimiter=",", skip_header=1, dtype=np.float64)
 
+data = np.genfromtxt("../simulaciones/data/linealDamped.csv",
+                     delimiter=",", skip_header=1, dtype=np.float64)
 time_data = data[:, 0]
 theta_data = data[:, 1]
 
@@ -69,7 +71,7 @@ class DampedPendulum(mn.Scene):
 
         def get_theta_at_time(t):
             time_trunc = t*1000
-            print(t, ",", time_trunc, ",", theta_data[int(time_trunc)])
+            # print(t, ",", time_trunc, ",", theta_data[int(time_trunc)])
             return theta_data[int(time_trunc)]
 
         # Usa la función en lugar de la actualización en tiempo real
