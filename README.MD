@@ -32,7 +32,7 @@ git clone https://github.com/dmorad1004/ProyectoOndas.git
 ```
 cd proyecto
 ```
-#Uso 
+# Uso 
 
 #### Para las simulaciones, navegar a la carpeta simulaciones, ejemplo para la comparación entre lineal y No lineal
 
