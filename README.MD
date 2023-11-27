@@ -52,7 +52,7 @@ Las animaciones se hacen apartir de los datos de las simulaciones, si se quiere 
 
 # Licencia
 
-el código lo pueden usar como deseen, tan solo dar atribución. No es mucho, pero es trabajo
+El código lo pueden usar como deseen, tan solo dar atribución. No es mucho, pero es trabajo
 honesto.
 
 Cualquier duda este es mi email: dmorad@unal.edu.co
